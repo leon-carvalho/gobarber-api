@@ -26,7 +26,7 @@ describe('ResetPasswordService', () => {
   it('should be able to reset the password', async () => {
     const user = await fakeUsersRepository.create({
       name: 'John Doe',
-      email: 'johndoe@email.com',
+      email: 'johndoe@example.com',
       password: '123456',
     });
 
@@ -70,7 +70,7 @@ describe('ResetPasswordService', () => {
   it('should not be able to reset the password if passed more than 2 hours', async () => {
     const user = await fakeUsersRepository.create({
       name: 'John Doe',
-      email: 'johndoe@email.com',
+      email: 'johndoe@example.com',
       password: '123456',
     });
 
