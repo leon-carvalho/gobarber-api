@@ -25,8 +25,6 @@ export default class RedisCacheProvider implements ICacheProvider {
     await this.client.set(key, JSON.stringify(value));
   }
 
-  public async invalidate(key: string): Promise<void> {}
-
   public async invalidatePrefix(prefix: string): Promise<void> {
     const keys = await this.client.keys(`${prefix}:*`);
 
@@ -37,5 +35,9 @@ export default class RedisCacheProvider implements ICacheProvider {
     });
 
     await pipeline.exec();
+  }
+
+  public async invalidate(key: string): Promise<void> {
+    await this.client.del(key);
   }
 }
