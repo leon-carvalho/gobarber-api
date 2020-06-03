@@ -1,5 +1,5 @@
-import { Request, Response } from 'express';
 import { container } from 'tsyringe';
+import { Request, Response } from 'express';
 import { classToClass } from 'class-transformer';
 
 import ShowProfileService from '@modules/users/services/ShowProfileService';
@@ -30,6 +30,6 @@ export default class ProfileController {
       password,
     });
 
-    return response.json(user);
+    return response.json(classToClass(user));
   }
 }
