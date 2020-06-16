@@ -115,7 +115,7 @@ Feito com ❤️ por Leonardo Carvalho
 
 GitHub - [@leon-carvalho](https://github.com/leon-carvalho/)
 
-Sinta-se livre para [entrar em contato!](https://www.linkedin.com/in/leonardo-dev/)
+LinkedIn - [entre em contato!](https://www.linkedin.com/in/leonardo-dev/)
 
 ## 📝 Licença
 Este projeto esta sobe a licença MIT. Veja a [LICENÇA](./LICENSE) para saber mais.
