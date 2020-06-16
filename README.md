@@ -69,6 +69,8 @@ $ npm run build
 
 Você pode acessar as rotas no Insomnia clicando no botão abaixo:
 
+<a href="https://insomnia.rest/run/?label=GoBarber&uri=https%3A%2F%2Fgithub.com%2Fleon-carvalho%2Fgobarber-api%2Fblob%2Fmaster%2Finsomnia-gobarber.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+
 ## 🛠 Tecnologias
 
 Principais ferramentas usadas na construção do projeto:
@@ -108,7 +110,11 @@ Principais ferramentas usadas na construção do projeto:
 - [Diego Fernandes, CTO at Rocketseat][diego3g]
 
 ## ✍🏽 Autores
-Feito com ❤️por Leonardo Carvalho [@leon-carvalho](https://github.com/leon-carvalho/)
+
+Feito com ❤️ por Leonardo Carvalho 
+
+GitHub - [@leon-carvalho](https://github.com/leon-carvalho/)
+
 Sinta-se livre para [entrar em contato!](https://www.linkedin.com/in/leonardo-dev/)
 
 ## 📝 Licença
