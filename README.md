@@ -80,7 +80,7 @@ Principais ferramentas usadas na construção do projeto:
 - [TypeScript][typescript]
 - [Jest][jest]
 
-## 📚 O que pude estudar desenvolvendo esta aplicação?**
+## 📚 O que pude estudar desenvolvendo esta aplicação?
 - TypeScript
 - Autenticação JWT
 - Filas com Redis
