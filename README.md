@@ -53,12 +53,19 @@ $ docker-compose up -d
 
 # Rode as migrations para o banco de dados
 $ yarn typeorm migration:run
+# Ou use NPM
+$ npm run typeorm migration:run
 
 # Execute os testes da aplicação com o comando
+$ yarn test
+# Ou use NPM
 $ npm run test
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
+# Ou use NPM
+$ npm run dev:server
+
 # O servidor inciará na porta:3333 - acesse http://localhost:3333
 
 # Gere a build da aplicação com o comando:
@@ -111,7 +118,7 @@ Principais ferramentas usadas na construção do projeto:
 
 ## ✍🏽 Autores
 
-Feito com ❤️ por Leonardo Carvalho 
+Feito com ❤️ por Leonardo Carvalho
 
 GitHub - [@leon-carvalho](https://github.com/leon-carvalho/)
 

@@ -4,5 +4,5 @@ dist
 .env
 coverage/
 
-tmp/*
+tmp/uploads/*
 !tmp/.gitkeep
